@@ -1,0 +1,32 @@
+#concept
+'''
+jeux de pps qui va etre constitue de 2 jouer qui chacun va ecrire puis va resortir le gagant et demander 
+si ils veulent continue sinon alors elle va arrete et affiche le score du gagnant avec combien de fois
+et lorsque le joeur choisi un 1 alors il jouera contre un robot et ainsi de suite
+'''
+#outil a utiliser
+'''
+demander si ils veulent jouer 
+si oui
+excecute un fonction demander
+fonction qui va demander combien de jouer son il
+    cette fonction n'accepte que un nombre ente oui et non
+    n'accepte pas 0 et les nombre negative
+    n'accepte pas les str ou les nombre superieur a 2
+apres que cette fonction est executer
+dans un loop
+    affiche non et si 1 
+    alors le joueur choisi et 
+    la fonction rebot est active
+la fonction rebot va utiliser le module random
+pour choisir  au hasard entre pps
+    tout autre charactere est interdie
+    n'accepte pas les nombre
+    va utiliser une liste
+lorsque cette fonction est active alors on sort le resultat et et 
+si il veut continue ou pas sinon on contenue
+par contre si il decide oui alors il va reactive via un for loop la fonction  de jeux
+et ajouter le scroe joueur a la liste des 2 qui sera toujour deux 
+si decide de quite alors on calcule le score de chacun et sorle le vaincqueure
+
+'''

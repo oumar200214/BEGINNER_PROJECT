@@ -1,0 +1,44 @@
+
+cest un jeux multijoureur ou chacun va lancer des des si un deux arrive a avoir 6 alors il gagne la partie
+et le jeux va le demander si il a envie de continue ou pas parcontre si aucun d'un arrive a avoir 6 alors
+celui qui atteintra le score 50 va gagner et va afficher le score de chacun 
+
+#outil ne necessaire
+
+Random : pour sortir entre 1 - 6 d'un maniere aleatoire probablement randint ou randrange
+beaucoup de while/for loops : pour d'abord demander si il veulent joue ou pas
+probablement un for loop pour chaque jour de le demander de le refaire et de comptabiliser pour chacun 
+for loop pour calculer le gagnant
+if condition : pour verifier la condition du 6 et quite la loop
+condition pour demander si il veux jouer
+conditoin pour celui qui aura atteine 50
+condition pour augmenter le score
+list : pour chaque joueur a augmenter
+fonction : 
+fonction qui augmente le score et l'affiche
+fonction general 
+fonction pour le input ou demande
+fonction pour fournir le nombre hasard
+fonction qui va evaluer le gagnant
+FONCTION POUR LE NOMBRE DE JOUEUR
+
+pour la fonction nombre hasard on va cree deux variable absolue et utiliser le module random pour qu'il sorte
+une et le tester ok
+pour la fonction demande on val lui demande si oui ou n il veulent si il dise oui alor returne excute true
+si non le jeux est quitt
+et si il affiche autre chose que c'est deux variable alors il va insister sur le faite de sortir un bon nombreet 
+FONCTION POUR LE NOMBRE DE JOUEUR c'est d'abord lui demander de combient des joueur 
+et en fonction de la demande ajouter a une liste le nombre de joueur et faire sortir le nombre joueur
+
+
+fonction general : pour la fonction general nous allons d'abord demander a l'utilisateur sa volonter de jouer 
+puis cela va activer le nombre de jour et lui demander
+apres cela nou allons itere a avec un for loop pour les 4 joueur
+pour chacun il va sortir un nombre au hasard via un input rouler
+et le score de chacun va etre comptabiliser
+
+            while True: 
+                for i in nombre:
+                    essai = input('etez vous pret taper (t): ')
+                    if essai == 't':
+                        for 
